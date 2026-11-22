@@ -1,0 +1,11 @@
+{
+  "name": "conversation-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "带产品需求简报和内容创作插件的个人会话工作台",
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs"
+  }
+}
